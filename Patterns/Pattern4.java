@@ -13,3 +13,11 @@ public class Pattern4 {
     }
 }
 }
+/* 
+Output :- 
+                A
+                BC
+                DEF
+                GHIJ
+
+            */

@@ -10,3 +10,11 @@ public class Pattern2 {
     }
     
 }
+
+
+/* Output:- 
+                ****
+                ***
+                **
+                * 
+ */
