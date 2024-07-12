@@ -103,6 +103,22 @@ public class Basics {
         size--;
         return val;
     }
+    public void reverseLL(){
+      
+        Node prev = null;
+        Node curr = tail = head;
+        Node next;
+        while(curr != null){
+            next = curr.next;
+            curr.next = prev;
+            prev= curr;
+            curr = next;
+
+        }
+        head = prev;
+     
+
+    }
     public  void print(){
         if(head==null){
             System.out.print("Linked List is empty");
@@ -129,14 +145,15 @@ public class Basics {
         ll.addLast(5);
       
         ll.addMid(3, 2);
+        
+       
+        // ll.removefirst();
+      
+        // ll.removeLast();
         ll.print();
-        System.out.println(ll.size);
-        ll.removefirst();
-        System.out.println(ll.size);
+        ll.reverseLL();
         ll.print();
-        ll.removeLast();
-        ll.print();
-        System.out.println(ll.size);
+      
        
 
     }
