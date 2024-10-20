@@ -5,9 +5,9 @@ public class Basics {
         HashMap<String , Integer> hm = new HashMap<>();
         hm.put("Burger" ,200);
         hm.put("Coffee", 100);
-        System.out.println(hm);
-        int rem = hm.get("Burger");
-         System.out.print(rem);
+        // System.out.println(hm);
+        // int rem = hm.get("Burger");
+        //  System.out.print(rem);
         // System.out.print(hm.containsKey("Coffee"));
 
         //to Iterate in hashmap we must do this
